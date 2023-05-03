@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 const express = require('express')
 const hbs = require('hbs')
 const port = 8080
+const example = "example"
 
 // express app
 const app = express()
@@ -18,6 +18,3 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => console.log(`Server listening on port ${port}`))
-=======
-h2llo
->>>>>>> j2dev
