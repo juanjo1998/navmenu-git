@@ -1,5 +1,3 @@
-// hello friend
-// 12345
 const express = require('express')
 const hbs = require('hbs')
 const port = 8080
@@ -19,4 +17,3 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => console.log(`Server listening on port ${port}`))
-// j2dev
